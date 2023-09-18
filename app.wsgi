@@ -1,6 +1,6 @@
 # app.wsgi
 
-from mon_application import app  # Remplacez "mon_application" par le nom de votre module/application
+from app import app  # Remplacez "mon_application" par le nom de votre module/application
 
 # Créez l'application WSGI en utilisant l'instance de votre application
 app = app
